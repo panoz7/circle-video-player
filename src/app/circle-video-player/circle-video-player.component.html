@@ -1,0 +1,14 @@
+
+<div class='video-container' (click)='playVideo()'>
+
+<div class='video-clip' [ngStyle]="{'border-color': borderColor}">
+    <video [src]='src' #videoNode></video>
+</div>
+
+<app-circle-progress-bar 
+    [percentPlayed]='percentPlayed' 
+    [color]="progressColor"
+    radius="99.5">
+</app-circle-progress-bar>
+
+</div>

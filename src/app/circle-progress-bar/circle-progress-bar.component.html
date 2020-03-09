@@ -1,0 +1,11 @@
+<svg width="200" height="200" viewBox="0 0 200 200">
+    <g transform="rotate(-90 100 100)">
+        <circle *ngIf="percentPlayed" cx="100" cy="100" [attr.r]="radius" fill="none" [attr.stroke]="color" stroke-width="1" [attr.stroke-dasharray]="circumference" [attr.stroke-dashoffset]="circumference - circumference * percentPlayed" />
+</g>  
+</svg>
+
+<!-- <circle *ngIf="percentPlayed" cx="100" cy="100" [attr.r]="radius" fill="none" [attr.stroke]="color" stroke-width="1" [attr.stroke-dasharray]="circumference" [attr.stroke-dashoffset]="circumference - circumference * percentPlayed" /> -->
+
+
+<!--     
+ -->
